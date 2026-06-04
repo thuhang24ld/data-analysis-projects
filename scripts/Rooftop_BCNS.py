@@ -23,9 +23,9 @@ warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 # ============================================================
 
 BASE_DIR        = r"D:\Rooftop_IPos_data"
-CREDENTIALS_FILE = r"C:\Users\PC\credentials.json"  # <-- đường dẫn file JSON service account
+CREDENTIALS_FILE = r"CREDENTIALS_FILE"  # <-- đường dẫn file JSON service account
 
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1MNEKiD28QdjXwqg7VRyso1bbfMrvZxROF7ZTWK14uE8/edit?usp=sharing"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit#gid=0"  # <-- URL Google Sheets (thay SPREADSHEET_ID)
 
 # ============================================================
 # LOGGING
